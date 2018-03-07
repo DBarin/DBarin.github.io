@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css?family=Plaster|Poppins');
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Hind|Plaster|Poppins|Roboto+Condensed');
+
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Ledger|Playball');
+
+
+header { 
+    position: relative;
+    /* показывает относительно какого элемента страницы
+     позиционируется элемент с позицией absolute */
+    height: 150px;
+    background: #0082c3;
+
+}
+
+.losung {
+
+color: white;
+font-size: 30px;
+text-align: right;
+position: relative;
+top: 50px;
+right: 50px;
+font-family: 'Plaster', cursive;
+
+
+}
+.logo2 {
+
+position: relative;
+
+left: 750px;
+height: 100px;
+
+
+}
+
+.logo3 {
+
+    position: absolute;
+
+    
+    left: 300px;
+    width: 100px;
+    height: 100px;
+        
+    }
+.logo {
+        position: absolute;
+        /* absolute дает возможность двигать элемент по всей странице
+        значение fixed - элемент двигается при скроллинге страницы (кнопка перезвонить) */
+        top: 40px;
+        left: 50px;
+        width: 300px;
+        
+        
+    }
+
+
+
+.navUP {
+
+    height: 600px;
+    background: #0082c3; 
+    width: 300px;
+    color: white;
+    font-family: "Hind";
+    text-align: left;
+    font-size: 25px;
+    
+
+
+}
+
+main {
+    
+    background: rgb(255, 255, 255); 
+    width: 100%;
+    margin: 0 10px;
+    align-items: stretch;
+
+
+/* замена отступов margin-top,right,bottom, left - по часовой стрелке */
+/* padding - внутренний отступ, margin-внешний, верх-право-низ-лево */
+
+}
+
+aside {
+
+    height: 600px;
+    background:  #0082c3;
+    width: 300px;
+    color: white;
+   font-family: 'Playball';
+   text-align: center;
+
+    
+
+}
+
+footer {
+
+    height: 150px;
+    background: -webkit-linear-gradient(top, #7db9e8 56%,#2989d8 94%);
+    color:white;
+    text-align: left;
+}
+
+.container {
+
+    display: flex;
+    background: rgb(236, 232, 232);
+    padding: 10px;
+
+}
+
+h2 {
+
+    font-family: "Roboto Condensed",Arial,Helvetica,sans-serif;
+    color: blue;
+
+}
+
+h3 {
+
+    font-family: "Anton" ;
+    color:blue;
+}
+
+p {
+
+    font-family: 'Cuprum', sans-serif;
+}
+
+
+.logo4 {
+
+position: fixed;
+
+left: 1350px;
+height: 100px;
+width: 150px;
+bottom: 10px;
+
+}
+
+.table {
+
+    font-family: "Roboto Condensed";
+    
+}
+
+.navDOWN {
+
+
+bottom: 40px;
+color: white;
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    .container  {
+
+        display: block;
+
+    }
+     header {
+
+        display: block;
+
+
+     }
+     
+     .losung {
+
+        font-size: 20px;
+        position: static;
+        padding: 10px;
+
+
+
+     }
+
+     .table {
+
+        display: none;
+        
+
+     
+    }
+
+    .logo {
+    
+    position: static;
+    /* absolute дает возможность двигать элемент по всей странице
+    значение fixed - элемент двигается при скроллинге страницы (кнопка перезвонить) */
+    
+    }
+
+    .logo2 {
+
+        position: static;
+    
+        }
+        
+        .logo3 {
+
+            display: none;
+
+                
+            }
+
+
+
+            
+        
+            
+        }
+            
+
+
+        
