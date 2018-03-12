@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.block-head {
+
+    
+    height: 50px;
+    width: 100%;
+    position: relative;
+    
+
+}
+
+.texthead { 
+    
+    display: flex;
+    width:100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    left:130px;
+    position: absolute;
+    
+}
+
+.logoUP {
+
+    position: absolute;
+    padding: 0 30;
+
+}
+
+p {
+
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.block-vsryadom {
+
+    display: flex;
+
+}
+
+.video {
+
+   
+    display: flex;
+    width: 100%;
+    
+
+    
+}
+
+
+
+.text-1 {
+
+   position:absolute;
+    width: 200px;
+    font-size: 30px;
+    left:100px;
+    margin-top:150px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.text-2 {
+
+    position:absolute;
+    width: 550px;
+    font-size: 20px;
+    left:100px;
+    margin-top:350px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+
+
+
+.block-mathematic {
+
+    display: flex;
+    background:rgb(207, 206, 206);
+    font-family: 'Open Sans', sans-serif;
+   
+    
+   
+}
+
+.mainheader {
+    
+    position: absolute;
+     width:600px;
+    height: 150px;
+    margin-left: 400px;
+    margin-top: 150px;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+   
+    
+      
+    
+      
+}
+
+.pictures {
+    
+ position: relative;
+ display: flex;
+width: 100%;
+height: 100%;
+margin-top: 400px;
+justify-content: space-between;
+
+    
+}
+
+.pic-1 {
+
+position:relative;
+left:-90px;
+
+  display: flex;
+   
+   width: 500px;
+   height: 40%;
+   
+   
+
+
+
+}
+
+.pic-2 {
+    position:relative;
+    display: flex;
+     width: 450px;
+    height:40%;
+    left:20px;
+
+   
+}
+
+.pic-3 {
+    position:relative;
+    display: flex;
+    
+    width: 550px;
+    height: 40%;
+    left:10px;
+
+   
+}
+
+
+
+
+.subscribe {
+
+
+    
+font-family: 'Open Sans', sans-serif;
+display: flex;
+width: 100%;
+height: 100%;
+margin-top: 400px;
+justify-content: space-between;
+
+   
+}
+
+.subscr-1 {
+
+    position:relative;
+    font-size:15px;
+
+  left:-1400px;
+  display: flex;
+   
+   width:250px;
+   height: 50px;
+   Margin-top: 400px;
+
+
+}
+
+.subscr-2 {
+
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    font-size:15px;
+    left:-1000px;
+    display: flex;
+    
+     width: 200px;
+     height: 50px;
+     Margin-top: 400px;
+  
+    
+}
+.subscr-3 {
+
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    font-size:15px;
+    left:-700px;
+    display: flex;
+     
+     width: 200px;
+     height: 50px;
+     Margin-top: 400px;
+    
+}
+
+
+.flex-container {
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer {
+
+    color: #999;
+    background-color: #f3f1ed;
+    position: relative;
+    display:flex;
+    width: 100%;
+    height: 100px;
+
+}
+
+.text-down {
+
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    left:120px;
+
+}
+
+.logo-1 {
+
+
+    position: absolute;
+    top:50px;
+    left:110px;
+
+    }
+
+.logo-2 {
+
+
+    position: absolute;
+    left:150px;
+    top:55px;
+    
+
+}
+
+.logo-3 {
+
+
+    position: absolute;
+    left:190px;
+    top:55px;
+}
+
+.underline {
+
+
+    color: #999;
+    background-color: #f3f1ed;
+    position:relative;
+
+
+}
+
+.date {
+
+
+    position: absolute;
+    left:1200px;
+    color: #999;
+    background-color: #f3f1ed;
+
+}
+
+.agreement {
+    position: absolute;
+    color: #999;
+    background-color: #f3f1ed;
+    width: 100%
+
+}
