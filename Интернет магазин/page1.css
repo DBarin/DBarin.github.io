@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption');
+
+body {
+
+    
+    background-image: url(http://energobyt.ru/wp-content/uploads/2014/11/%D1%84%D0%BE%D0%BD-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B0%D0%B9%D1%82%D0%B0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'PT Serif Caption', serif;
+    
+
+}
+
+.headpart {
+
+    
+    height: 100px;
+    font-family: 'PT Serif Caption', serif;
+    
+
+
+}
+
+table {
+
+    border: 2px double black;
+    font-size: 15px;
+    width: 200px;
+    font-family: 'PT Serif Caption', serif;
+}
+
+th {
+
+    border: 1px solid black;
+}
+
+.maincontainer {
+
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    font-family: 'PT Serif Caption', serif;
+    height: 600px;
+    
+
+        
+}
+
+.cont1 {
+    
+    display:flex;
+    position: absolute;
+    
+    width: 400px;
+    height: 250px;
+    left:110px;
+    margin-top: 50px;
+    border: 1px solid black;  
+
+    }
+
+.pic-1 {
+
+    border:1px solid black;
+    width:50%;
+}
+
+.subscr-1 {
+
+    text-align: center;
+    width:50%;
+
+}
+    
+
+.cont2 {
+    
+    display:flex;
+    position: absolute;
+   
+    width: 400px;
+    height: 250px;
+    left:700px;
+    margin-top:50px;
+    border: 1px solid black;
+}
+
+.pic-2 {
+
+        border:1px solid black;
+        width:50%;
+    }
+    
+.subscr-2 {
+    
+        text-align: center;
+    }
+    
+
+
+.cont3 { 
+    
+    display:flex;
+    position: absolute;
+    
+    width: 400px;
+    height: 250px;
+    left:110px;
+    margin-top: 350px;
+    border: 1px solid black;
+
+
+}
+.pic-3 {
+
+    border:1px solid black;
+    width:50%;
+}
+
+.subscr-3 {
+
+    text-align: center;
+}
+
+
+    
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display:none;
+}
+.modal {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 100px;
+    left: 30%; 
+    background: #fff;
+    text-align: center;
+
+}
+
+.tableOrder {
+    position: absolute;
+    left:140px;
+    top: 70px;
+
+
+}
+
+.closebtn {
+    position: absolute;
+    left:450px;
+    top:10px;
+
+    
+}
+
+.btnOrder {
+
+
+    position: absolute;
+    top:400px;
+    left:200px;
+
+
+
+}
+
+
+
+
+
