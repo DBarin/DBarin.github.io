@@ -1,0 +1,21 @@
+
+
+li
+
+{
+
+    font-family: sans-serif;
+    color:green;
+}
+
+li:hover
+
+{
+    cursor:pointer;
+}
+
+.result
+
+{
+    text-decoration:line-through;
+}

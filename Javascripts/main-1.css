@@ -1,0 +1,25 @@
+.done
+
+{
+    text-decoration:line-through;
+}
+
+button
+
+{
+    color:rgb(128, 0, 0);
+}
+
+li
+
+{
+
+    font-family: Geneva;
+    
+}
+
+li:hover
+
+{
+    cursor:pointer;
+}
